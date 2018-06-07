@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping cart</title>
+  <link rel="stylesheet" href="Yes.css">
+</head>
+<body>
+  <h1 class="title">Shopping Cart</h1>
+
+  <div class="sCart">
+    <div class="product">
+      <div class="prdImg">
+        <img src="https://vignette.wikia.nocookie.net/runescape2/images/a/a4/Durable_Jellyfish.png/revision/20150714212839">
+      </div>
+      <div class="prdDetails">
+        <div class="prdTitle" id="prdSecond"></div>
+        <p class="prdDesc" id="prdSecond1"></p>
+      </div>
+      <div class="prdPrice" id="prdSecond2"></div>
+      <div class="prdQuantity">
+        <input type="number" value="0" min="0">
+      </div>
+      <div class="prdRemoval">
+        <button class="rPrd">
+          Remove
+        </button>
+      </div>
+      <div class="prdLNPrice">0.00</div>
+    </div>
+
+    <div class="product">
+      <div class="prdImg">
+        <img src="https://media.tnh.me/54ec061c5ccacf5872264eac/551875c75ccacf1b8200b49c">
+      </div>
+      <div class="prdDetails">
+        <div class="prdTitle" id="prdOne"></div>
+        <p class="prdDesc" id="prdOne1"></p>
+      </div>
+      <div class="prdPrice" id="prdOne2"></div>
+      <div class="prdQuantity">
+        <input type="number" value="0" min="0">
+      </div>
+      <div class="prdRemoval">
+        <button class="rPrd">
+          Remove
+        </button>
+      </div>
+      <div class="prdLNPrice">0.00</div>
+    </div>
+
+     <div class="product">
+      <div class="prdImg">
+        <img src="https://polygonkight.files.wordpress.com/2013/07/04-jellyfish.png">
+      </div>
+      <div class="prdDetails">
+        <div class="prdTitle" id="prdThird"></div>
+        <p class="prdDesc" id="prdThird1"></p>
+      </div>
+      <div class="prdPrice" id="prdThird2"></div>
+      <div class="prdQuantity">
+        <input type="number" value="0" min="0">
+      </div>
+      <div class="prdRemoval">
+        <button class="rPrd">
+          Remove
+        </button>
+      </div>
+      <div class="prdLNPrice">0.00</div>
+    </div>
+    <div class="t">
+      <div class="tItem">
+        <span>Subtotal</span>
+        <div class="tValue" id="cSubtotal"></div>
+      </div>
+      <div class="tItem">
+        <span>Tax (7.5%)</span>
+        <div class="tValue" id="cTax"></div>
+      </div>
+      </div>
+      <div class="iTotals">
+        <span>Grand Total</span>
+        <div class="tValue" id="cTotal"></div>
+      </div>
+    <div id="credit"></div>
+    </div>
+        
+        <button class="checkout">Checkout</button>
+
+  </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="shopping_cartJS.js"></script>
+</body>
+</html>
