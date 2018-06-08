@@ -14,7 +14,7 @@ var cartItems2 = {
   description: "From the depths of the ocean, we bring to you Super Sayian 45 Jellyfish. It has the ability to destroy universes, travel faster than the speed of light, conjour huge balls of energy, and most importantly, significantly increase its power by screaming ear-piercingly loud for 30 minutes to an hour.",
   price: 9001.02
 }
-//Turn objects into strinsgs and print onto the HMTL
+//Turn objects into strings and print onto the HMTL
 var cartItemsJSON = JSON.stringify(cartItems.title);
 var cartItemsJSON1 = JSON.stringify(cartItems.description);
 var cartItemsJSON2 = JSON.stringify(cartItems.price);
